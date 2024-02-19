@@ -1,4 +1,3 @@
-```
 on:
   workflow_dispatch:
   schedule:
@@ -18,4 +17,3 @@ jobs:
 # Point to the right path, run the right Rscript command
       - name: Run automatic prediction file
         run: Rscript Main.R 
-```
