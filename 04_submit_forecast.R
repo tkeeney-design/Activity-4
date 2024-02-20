@@ -1,4 +1,3 @@
-```{r}
 ##' Save forecast and metadata to file, submit forecast to EFI
 ##' @param forecast dataframe
 ##' @param team_info list, see example
@@ -64,4 +63,4 @@ submit_forecast <- function(forecast,team_info,submit=FALSE){
   }
   
 }
-```
+
